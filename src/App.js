@@ -60,7 +60,7 @@ class App extends Component {
   render() {
     return (
       <div className={s.App}>
-        <h1>PhoonebooK</h1>
+        <h1>Phoonebook</h1>
         <ContactForm submit={this.addContact} />
         <h2 className={s.contactsTitle}>Contacts 📞</h2>
         <Filter filter={this.state.filter} onChangeFilter={this.changeFilter} />
