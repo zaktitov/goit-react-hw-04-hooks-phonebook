@@ -1,0 +1,57 @@
+.input {
+  width: 250px;
+  padding: 5px;
+  height: 20px;
+  border: 2px solid green;
+  border-radius: 5px;
+  margin-left: 10px;
+  position: relative;
+}
+
+.labelName {
+  font-size: 18px;
+  font-weight: bold;
+
+  margin-bottom: 5px;
+  color: black;
+}
+
+.labelNumber {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+
+  margin-bottom: 5px;
+  color: black;
+}
+
+.btnSubmit {
+  margin: 30px 0 30px 0;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: darkseagreen;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  cursor: pointer;
+  transition: transform 250ms ease;
+}
+
+.btnSubmit:hover,
+.btnSubmit:focus {
+  transform: scale(1.1);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  margin: 0px auto 0 auto;
+  border: 1px solid rgb(231, 231, 231);
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 12px 12px 2px 1px rgba(18, 18, 34, 0.2);
+}

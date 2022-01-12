@@ -1,0 +1,53 @@
+.contactsTitle {
+  color: black;
+  text-align: center;
+}
+.contactsList {
+  padding: 10px;
+  list-style: none;
+  text-align: center;
+}
+
+.contactsItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.contactsParagraph {
+  display: inline-block;
+  color: black;
+  font-size: large;
+  flex: 1 auto 45%;
+  text-align: left;
+  padding: 0px 10px 0 10px;
+}
+
+.contactsNumber {
+  display: inline-block;
+  color: green;
+  flex: 1 1 35%;
+  text-align: left;
+  padding: 0px 10px 0 10px;
+}
+
+.contactsBtn {
+  /* margin: 0 0 0 30px; */
+  width: 40px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: darkseagreen;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  cursor: pointer;
+  flex: 1 auto 20%;
+  transition: transform 250ms ease;
+}
+
+.contactsBtn:focus,
+.contactsBtn:hover {
+  transform: scale(1.1);
+}
