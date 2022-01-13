@@ -1,7 +1,7 @@
 import s from "./Contacts.module.css";
 import PropTypes from "prop-types";
 
-const Contacts = ({ contacts, deleteContact }) => (
+const Contacts = ({ contacts, onDeleteContact }) => (
   <div>
     <ul className={s.contactsList}>
       {contacts.map(({ id, name, number }) => (
@@ -11,7 +11,7 @@ const Contacts = ({ contacts, deleteContact }) => (
           <button
             type="button"
             onClick={() => {
-              deleteContact(id);
+              onDeleteContact(id);
             }}
             className={s.contactsBtn}
           >

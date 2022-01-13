@@ -5,7 +5,16 @@
   border: 2px solid green;
   border-radius: 5px;
   margin-left: 10px;
+  margin-bottom: 10px;
   position: relative;
+}
+
+.list {
+  list-style: none;
+}
+
+.Item {
+  text-align: right;
 }
 
 .labelName {
