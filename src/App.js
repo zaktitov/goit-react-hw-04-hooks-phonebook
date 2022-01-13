@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { Component } from "react/cjs/react.production.min";
 import { nanoid } from "nanoid";
 import s from "./App.module.css";
 import ContactForm from "./components/ContactForm/ContactForm";
